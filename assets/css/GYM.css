@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+.header{
+    background-color: black;
+    width: 100%;
+    height: 98px;
+    display: flex;
+    position:fixed;
+    
+}
+.logo{
+    width: 12.0rem;
+    height: 6.0rem;
+    margin-left: 7.6rem;
+    border-radius: 6.5rem;
+    
+}
+
+.main-link{
+    list-style-type: none;
+    align-items: center;
+    margin-bottom: 0;
+    display:flex;
+    gap: 15px;
+    margin-left: 5.2rem;
+    margin-top: 32.5px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.section{
+    height: 38.0rem;
+}
+.bg{
+    width: 100%;
+    height: 38.0rem;
+}
+.section1{
+    background-color: black;
+    width: 100%;
+    height: 28.0rem;
+    padding: 0;
+}
+.p{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.5vw;
+}
+.p1{
+    color: white;
+    text-align: center;
+    font-size: 5vw;
+    font-style: italic;
+}
+.form{
+    text-align: center;
+}
+.form1{
+    width: 13vw;
+    height: 35px;
+}
+.button{
+    color: white;
+    border-color: white;
+    background-color: orangered;
+    height: 40px;
+    width: 10.0rem;
+    text-align: center;
+    font-size:x-large;
+    font-style: italic;
+}
+.p2{
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 7px;
+}
+.section2{
+    margin-top: 6.0rem;
+    display: flex;
+    height: 34.0rem;
+    
+}
+.p3,.h1,.p4,.button1{
+    margin-left: 10.0rem;
+    font-size: 1.2vw;
+
+}
+.h1{
+    color: orangered;
+    font-size: 2.2vw;
+    font-style: italic;
+}
+.img{
+    height: 400px;
+    width: 300px;
+    margin-left: 13.0rem;
+    
+}
+.button1{
+    width: 19.0rem;
+    height: 3.0rem;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    font-size:x-large;
+    font-style: italic;
+    
+}
+.section3{
+    background-color: black;
+    display: flex;
+    height: 30.0rem;
+}
+
+.p5,.h11,.p6,.button2{
+    margin-left: 10.0rem;
+    font-size: 1.2vw;
+}
+.p5{
+    color: white;
+    margin-top: 5.0rem;
+}
+.h11{
+    color: orangered;
+    font-size: 2.2vw;
+    font-style: italic;
+}
+.p6{
+    color: white;
+}
+.button2{
+    width: 10.0rem;
+    height: 3.0rem;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    font-size:x-large;
+    font-style: italic;
+}
+.img1{
+    width: 300px;
+    height: 25.0rem;
+    margin-left: 9.0rem;
+    margin-bottom: 10.0rem;
+}
+.img2{
+    width: 300px;
+    height: 25.0rem;
+    margin-left: 0.5rem;
+    margin-top: 5.0rem;
+}
+.section4{
+    height: 45.0rem;
+}
+.p7,.h12,.p8{
+    text-align: center;
+    font-size: 1.0rem;
+}
+.p7{
+    margin-top: 5.0rem;
+}
+.h12{
+    color: orangered;
+    font-size: 2.5rem;
+    font-style: italic;
+}
+.div{
+    display: flex;
+    margin-top: 5.0rem;
+    margin-left: 5.0rem;
+    column-gap: 10px;
+    
+}
+.img_pic{
+    border: 5px solid black;
+}
+.p9{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.button3{
+    width: 10.0rem;
+    height: 3.0rem;
+    color: white;
+    background-color: orangered;
+    margin-left: 40.0rem ;
+    margin-top: 3.0rem;
+    font-style: italic;
+    text-align: center;
+    font-size:x-large;
+}
+.section5{
+    background-color: black;
+    display: flex;
+    height: 30.0rem;
+    border-top: 10px solid orangered;
+}
+.img3{
+    margin-left: 10.0rem;
+    margin-top: 3.0rem;
+}
+.p10{
+    color: white;
+    margin-left: 10.0rem;
+    
+}
+.h13{
+    color: orangered;
+    margin-left: 10.0rem;
+    margin-top: 7.0rem;
+    font-style: italic;
+}
+.p12{
+    color: white;
+    margin-top: 1.0rem;
+    margin-left: 10.0rem;
+}
+.div3{
+    display: flex;
+    margin-left: 10.0rem;
+    margin-top: 10px;
+    
+}
+.img4{
+    height: 50px;
+    width: 50px;
+}
+#footer{
+    height: 80px;
+    display: flex;
+    background-image: linear-gradient( red,yellow,yellow,red);
+}
+.p15{
+    color: black;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:22px ;
+    margin-left: 55.0rem;
+    font-weight: 500;
+    font-style: italic;
+    
+}
+.p16{
+    color: black;
+    font-size: 28px;
+    font-style: italic;
+    margin-top:23px ;
+    padding-left: 10px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
